@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Elon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@300;700&family=Lora:ital,wght@0,600;1,700&family=Merriweather:ital@1&family=Neucha&family=Open+Sans:wght@300;400&family=PT+Sans:ital@1&family=Quicksand:wght@300;400;600;700&family=Roboto+Condensed&display=swap"
+          rel="stylesheet">
+    <link href="scss/.css/style.css" rel="stylesheet">
+    <link href="scss/.css/send.css" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <div class="container_send">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="img/Ілон-доставка-64.png" alt="Ілон">
+                </div>
+            </div>
+            <div class="title">
+                <h1>
+                    <span class="title__text">Надшвидка доставка "Ілон"</span>
+                </h1>
+                <h1>
+                    <a class="exit__text" href="index.html">Вихід</a>
+                </h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_container">
+                <div class="main__menu">
+                    <h1>
+                        <span class="title__text">Ваше замовлення</span>
+                    </h1>
+                </div>
+                <div class="main_box">
+                    <div class="box_item">
+                        <div class="form-container">
+                            <div class="form_title">
+                                <span class="main_form_title">Форма відправки</span>
+                            </div>
+                            <div class="form_fileds">
+                                <div class="form_filed">
+                                    <label for="userName">Ім'я</label>
+                                    <input class="filed" id="userName" type="text" placeholder="Ваше ПІБ" required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="userEmail">Ваша пошта</label>
+                                    <input class="filed" id="userEmail" type="email" placeholder="Ваша пошта"
+                                           required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="sendAddress">Повторіть пароль</label>
+                                    <input class="filed" id="sendAddress" type="text" placeholder="Адреса відправлення"
+                                           required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="deliveryAddress">Ваше ПІБ</label>
+                                    <input class="filed" id="deliveryAddress" type="text" placeholder="Адреса доставки"
+                                           required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="weight">Вага посилки</label>
+                                    <input class="filed" id="weight" type="text" placeholder="гр."
+                                           required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="dimensions">Габарити посилки</label>
+                                    <input class="filed" id="dimensions" type="text" placeholder="см."
+                                           required>
+                                </div>
+                                <div class="form_filed">
+                                    <label for="deliveryCost">Декларована вартість посилки</label>
+                                    <input class="filed" id="deliveryCost" type="text" placeholder="гр."
+                                           required>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <label class="userAgreement">
+                                    <input id="userAgreement" type="checkbox">
+                                    <span>Прочитав правила користування та погоджуюсь з ними!</span>
+                                </label>
+                            </div>
+                            <div class="form-bottom">
+                                <bottom class="bottom_enter">
+                                    <a class="bottom_link" href="delivery.html">Відправити</a>
+                                </bottom>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_item">
+                        <div id="map">
+                            <div class="container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325515.6816738871!2d30.252500069236632!3d50.40213674727968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1652038669731!5m2!1sru!2sua"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
