@@ -43,4 +43,16 @@
   margin: 10px 0;
 }
 
+.bottom_link:link {
+  color: white;
+}
+
+.bottom_link:visited {
+  color: white;
+}
+
+.bottom_link:hover {
+  color: #72e6ee;
+}
+
 /*# sourceMappingURL=review.css.map */
